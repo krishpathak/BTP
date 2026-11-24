@@ -1,0 +1,604 @@
+{
+  "tolerance_ms": 150,
+  "records": [
+    {
+      "record": "I01",
+      "reference": 2757,
+      "detected": 3148,
+      "tp": 2721,
+      "fp": 427,
+      "fn": 36,
+      "sensitivity": 98.69423286180631,
+      "positive_predictivity": 86.43583227445997
+    },
+    {
+      "record": "I02",
+      "reference": 2674,
+      "detected": 2699,
+      "tp": 2642,
+      "fp": 57,
+      "fn": 32,
+      "sensitivity": 98.80329094988781,
+      "positive_predictivity": 97.88810670618747
+    },
+    {
+      "record": "I20",
+      "reference": 2652,
+      "detected": 2685,
+      "tp": 2634,
+      "fp": 51,
+      "fn": 18,
+      "sensitivity": 99.32126696832579,
+      "positive_predictivity": 98.10055865921788
+    },
+    {
+      "record": "I21",
+      "reference": 2184,
+      "detected": 2222,
+      "tp": 2179,
+      "fp": 43,
+      "fn": 5,
+      "sensitivity": 99.77106227106228,
+      "positive_predictivity": 98.06480648064806
+    },
+    {
+      "record": "I22",
+      "reference": 3126,
+      "detected": 3086,
+      "tp": 3077,
+      "fp": 9,
+      "fn": 49,
+      "sensitivity": 98.43250159948816,
+      "positive_predictivity": 99.70836033700583
+    },
+    {
+      "record": "I35",
+      "reference": 3675,
+      "detected": 3636,
+      "tp": 3626,
+      "fp": 10,
+      "fn": 49,
+      "sensitivity": 98.66666666666667,
+      "positive_predictivity": 99.72497249724972
+    },
+    {
+      "record": "I36",
+      "reference": 3911,
+      "detected": 3862,
+      "tp": 3860,
+      "fp": 2,
+      "fn": 51,
+      "sensitivity": 98.6959856814114,
+      "positive_predictivity": 99.94821336095288
+    },
+    {
+      "record": "I37",
+      "reference": 2461,
+      "detected": 2460,
+      "tp": 2450,
+      "fp": 10,
+      "fn": 11,
+      "sensitivity": 99.5530272247054,
+      "positive_predictivity": 99.59349593495935
+    },
+    {
+      "record": "I38",
+      "reference": 2699,
+      "detected": 2663,
+      "tp": 2622,
+      "fp": 41,
+      "fn": 77,
+      "sensitivity": 97.14709151537606,
+      "positive_predictivity": 98.46038302666166
+    },
+    {
+      "record": "I39",
+      "reference": 1775,
+      "detected": 1795,
+      "tp": 1699,
+      "fp": 96,
+      "fn": 76,
+      "sensitivity": 95.71830985915493,
+      "positive_predictivity": 94.65181058495821
+    },
+    {
+      "record": "I44",
+      "reference": 2494,
+      "detected": 2490,
+      "tp": 2478,
+      "fp": 12,
+      "fn": 16,
+      "sensitivity": 99.35846030473135,
+      "positive_predictivity": 99.51807228915662
+    },
+    {
+      "record": "I45",
+      "reference": 1928,
+      "detected": 1913,
+      "tp": 1909,
+      "fp": 4,
+      "fn": 19,
+      "sensitivity": 99.01452282157676,
+      "positive_predictivity": 99.79090433873498
+    },
+    {
+      "record": "I46",
+      "reference": 2658,
+      "detected": 2647,
+      "tp": 2631,
+      "fp": 16,
+      "fn": 27,
+      "sensitivity": 98.9841986455982,
+      "positive_predictivity": 99.3955421231583
+    },
+    {
+      "record": "I57",
+      "reference": 2870,
+      "detected": 2859,
+      "tp": 2851,
+      "fp": 8,
+      "fn": 19,
+      "sensitivity": 99.33797909407666,
+      "positive_predictivity": 99.72018188177684
+    },
+    {
+      "record": "I58",
+      "reference": 2325,
+      "detected": 2317,
+      "tp": 2312,
+      "fp": 5,
+      "fn": 13,
+      "sensitivity": 99.44086021505376,
+      "positive_predictivity": 99.78420371169616
+    },
+    {
+      "record": "I72",
+      "reference": 2269,
+      "detected": 2284,
+      "tp": 2241,
+      "fp": 43,
+      "fn": 28,
+      "sensitivity": 98.76597620096959,
+      "positive_predictivity": 98.11733800350262
+    },
+    {
+      "record": "I73",
+      "reference": 1992,
+      "detected": 2001,
+      "tp": 1986,
+      "fp": 15,
+      "fn": 6,
+      "sensitivity": 99.6987951807229,
+      "positive_predictivity": 99.2503748125937
+    },
+    {
+      "record": "f1o01",
+      "reference": 7169,
+      "detected": 7172,
+      "tp": 7167,
+      "fp": 5,
+      "fn": 2,
+      "sensitivity": 99.97210210629098,
+      "positive_predictivity": 99.9302844394869
+    },
+    {
+      "record": "f1o02",
+      "reference": 6823,
+      "detected": 7151,
+      "tp": 6689,
+      "fp": 462,
+      "fn": 134,
+      "sensitivity": 98.0360545214715,
+      "positive_predictivity": 93.53936512375891
+    },
+    {
+      "record": "f1o03",
+      "reference": 7228,
+      "detected": 7229,
+      "tp": 1074,
+      "fp": 6155,
+      "fn": 6154,
+      "sensitivity": 14.858882125069176,
+      "positive_predictivity": 14.856826670355513
+    },
+    {
+      "record": "f1o04",
+      "reference": 6230,
+      "detected": 6236,
+      "tp": 6219,
+      "fp": 17,
+      "fn": 11,
+      "sensitivity": 99.82343499197432,
+      "positive_predictivity": 99.72738935214882
+    },
+    {
+      "record": "f1o05",
+      "reference": 5730,
+      "detected": 5757,
+      "tp": 5729,
+      "fp": 28,
+      "fn": 1,
+      "sensitivity": 99.9825479930192,
+      "positive_predictivity": 99.51363557408372
+    },
+    {
+      "record": "f1o06",
+      "reference": 6231,
+      "detected": 6260,
+      "tp": 6231,
+      "fp": 29,
+      "fn": 0,
+      "sensitivity": 100.0,
+      "positive_predictivity": 99.53674121405751
+    },
+    {
+      "record": "f1o07",
+      "reference": 7150,
+      "detected": 7186,
+      "tp": 7146,
+      "fp": 40,
+      "fn": 4,
+      "sensitivity": 99.94405594405595,
+      "positive_predictivity": 99.44336209295854
+    },
+    {
+      "record": "f1o08",
+      "reference": 8488,
+      "detected": 8507,
+      "tp": 8484,
+      "fp": 23,
+      "fn": 4,
+      "sensitivity": 99.95287464655985,
+      "positive_predictivity": 99.729634418714
+    },
+    {
+      "record": "f1o09",
+      "reference": 4925,
+      "detected": 5078,
+      "tp": 4863,
+      "fp": 215,
+      "fn": 62,
+      "sensitivity": 98.74111675126903,
+      "positive_predictivity": 95.76604962583694
+    },
+    {
+      "record": "f1o10",
+      "reference": 8241,
+      "detected": 8242,
+      "tp": 8240,
+      "fp": 2,
+      "fn": 1,
+      "sensitivity": 99.9878655502973,
+      "positive_predictivity": 99.97573404513467
+    },
+    {
+      "record": "f1y01",
+      "reference": 8709,
+      "detected": 8712,
+      "tp": 8708,
+      "fp": 4,
+      "fn": 1,
+      "sensitivity": 99.98851762544494,
+      "positive_predictivity": 99.95408631772268
+    },
+    {
+      "record": "f1y02",
+      "reference": 7035,
+      "detected": 7036,
+      "tp": 7034,
+      "fp": 2,
+      "fn": 1,
+      "sensitivity": 99.98578535891968,
+      "positive_predictivity": 99.97157475838544
+    },
+    {
+      "record": "f1y03",
+      "reference": 7643,
+      "detected": 7644,
+      "tp": 7643,
+      "fp": 1,
+      "fn": 0,
+      "sensitivity": 100.0,
+      "positive_predictivity": 99.9869178440607
+    },
+    {
+      "record": "f1y04",
+      "reference": 5511,
+      "detected": 5511,
+      "tp": 5511,
+      "fp": 0,
+      "fn": 0,
+      "sensitivity": 100.0,
+      "positive_predictivity": 100.0
+    },
+    {
+      "record": "f1y05",
+      "reference": 6965,
+      "detected": 6974,
+      "tp": 6964,
+      "fp": 10,
+      "fn": 1,
+      "sensitivity": 99.98564249820531,
+      "positive_predictivity": 99.8566102667049
+    },
+    {
+      "record": "f1y06",
+      "reference": 7086,
+      "detected": 7097,
+      "tp": 7063,
+      "fp": 34,
+      "fn": 23,
+      "sensitivity": 99.6754163138583,
+      "positive_predictivity": 99.52092433422573
+    },
+    {
+      "record": "f1y07",
+      "reference": 5947,
+      "detected": 6027,
+      "tp": 5946,
+      "fp": 81,
+      "fn": 1,
+      "sensitivity": 99.98318479905835,
+      "positive_predictivity": 98.65604778496764
+    },
+    {
+      "record": "f1y08",
+      "reference": 7289,
+      "detected": 7293,
+      "tp": 7289,
+      "fp": 4,
+      "fn": 0,
+      "sensitivity": 100.0,
+      "positive_predictivity": 99.94515288632935
+    },
+    {
+      "record": "f1y09",
+      "reference": 8021,
+      "detected": 8030,
+      "tp": 8014,
+      "fp": 16,
+      "fn": 7,
+      "sensitivity": 99.91272908614886,
+      "positive_predictivity": 99.80074719800747
+    },
+    {
+      "record": "f1y10",
+      "reference": 8693,
+      "detected": 8702,
+      "tp": 8690,
+      "fp": 12,
+      "fn": 3,
+      "sensitivity": 99.96548947428965,
+      "positive_predictivity": 99.86210066651344
+    },
+    {
+      "record": "f2o01",
+      "reference": 7234,
+      "detected": 7233,
+      "tp": 7231,
+      "fp": 2,
+      "fn": 3,
+      "sensitivity": 99.95852916781864,
+      "positive_predictivity": 99.9723489561731
+    },
+    {
+      "record": "f2o02",
+      "reference": 6372,
+      "detected": 6379,
+      "tp": 6356,
+      "fp": 23,
+      "fn": 16,
+      "sensitivity": 99.74890144381669,
+      "positive_predictivity": 99.63944191879605
+    },
+    {
+      "record": "f2o03",
+      "reference": 6541,
+      "detected": 6572,
+      "tp": 6539,
+      "fp": 33,
+      "fn": 2,
+      "sensitivity": 99.96942363552974,
+      "positive_predictivity": 99.49786975045649
+    },
+    {
+      "record": "f2o04",
+      "reference": 6902,
+      "detected": 6902,
+      "tp": 6902,
+      "fp": 0,
+      "fn": 0,
+      "sensitivity": 100.0,
+      "positive_predictivity": 100.0
+    },
+    {
+      "record": "f2o05",
+      "reference": 8469,
+      "detected": 8483,
+      "tp": 8447,
+      "fp": 36,
+      "fn": 22,
+      "sensitivity": 99.74022907072855,
+      "positive_predictivity": 99.5756218318991
+    },
+    {
+      "record": "f2o06",
+      "reference": 5249,
+      "detected": 5385,
+      "tp": 5247,
+      "fp": 138,
+      "fn": 2,
+      "sensitivity": 99.96189750428653,
+      "positive_predictivity": 97.43732590529248
+    },
+    {
+      "record": "f2o07",
+      "reference": 5944,
+      "detected": 5944,
+      "tp": 5937,
+      "fp": 7,
+      "fn": 7,
+      "sensitivity": 99.88223418573351,
+      "positive_predictivity": 99.88223418573351
+    },
+    {
+      "record": "f2o08",
+      "reference": 7044,
+      "detected": 7277,
+      "tp": 6717,
+      "fp": 560,
+      "fn": 327,
+      "sensitivity": 95.35775127768314,
+      "positive_predictivity": 92.30452109385736
+    },
+    {
+      "record": "f2o09",
+      "reference": 6138,
+      "detected": 6156,
+      "tp": 5963,
+      "fp": 193,
+      "fn": 175,
+      "sensitivity": 97.14890843923102,
+      "positive_predictivity": 96.8648473034438
+    },
+    {
+      "record": "f2o10",
+      "reference": 8441,
+      "detected": 8443,
+      "tp": 8420,
+      "fp": 23,
+      "fn": 21,
+      "sensitivity": 99.75121431110058,
+      "positive_predictivity": 99.7275849816416
+    },
+    {
+      "record": "f2y01",
+      "reference": 8106,
+      "detected": 8099,
+      "tp": 8099,
+      "fp": 0,
+      "fn": 7,
+      "sensitivity": 99.91364421416235,
+      "positive_predictivity": 100.0
+    },
+    {
+      "record": "f2y02",
+      "reference": 6574,
+      "detected": 6582,
+      "tp": 6573,
+      "fp": 9,
+      "fn": 1,
+      "sensitivity": 99.98478856099787,
+      "positive_predictivity": 99.86326344576116
+    },
+    {
+      "record": "f2y03",
+      "reference": 6807,
+      "detected": 6813,
+      "tp": 6807,
+      "fp": 6,
+      "fn": 0,
+      "sensitivity": 100.0,
+      "positive_predictivity": 99.91193306913254
+    },
+    {
+      "record": "f2y04",
+      "reference": 8603,
+      "detected": 8608,
+      "tp": 8599,
+      "fp": 9,
+      "fn": 4,
+      "sensitivity": 99.95350459142159,
+      "positive_predictivity": 99.89544609665427
+    },
+    {
+      "record": "f2y05",
+      "reference": 9244,
+      "detected": 9244,
+      "tp": 9236,
+      "fp": 8,
+      "fn": 8,
+      "sensitivity": 99.91345737775855,
+      "positive_predictivity": 99.91345737775855
+    },
+    {
+      "record": "f2y06",
+      "reference": 6851,
+      "detected": 6851,
+      "tp": 6851,
+      "fp": 0,
+      "fn": 0,
+      "sensitivity": 100.0,
+      "positive_predictivity": 100.0
+    },
+    {
+      "record": "f2y07",
+      "reference": 6506,
+      "detected": 6514,
+      "tp": 6506,
+      "fp": 8,
+      "fn": 0,
+      "sensitivity": 100.0,
+      "positive_predictivity": 99.87718759594719
+    },
+    {
+      "record": "f2y08",
+      "reference": 7358,
+      "detected": 7330,
+      "tp": 7310,
+      "fp": 20,
+      "fn": 48,
+      "sensitivity": 99.34764881761348,
+      "positive_predictivity": 99.72714870395635
+    },
+    {
+      "record": "f2y09",
+      "reference": 8701,
+      "detected": 8654,
+      "tp": 8590,
+      "fp": 64,
+      "fn": 111,
+      "sensitivity": 98.72428456499253,
+      "positive_predictivity": 99.26045759186503
+    },
+    {
+      "record": "f2y10",
+      "reference": 7113,
+      "detected": 7089,
+      "tp": 7061,
+      "fp": 28,
+      "fn": 52,
+      "sensitivity": 99.26894418670041,
+      "positive_predictivity": 99.60502186486106
+    }
+  ],
+  "by_class": {
+    "CAD (INCART)": {
+      "records": 17,
+      "reference_beats": 44450,
+      "tp": 43918,
+      "fp": 849,
+      "fn": 532,
+      "sensitivity": 98.80314960629921,
+      "positive_predictivity": 98.10351374896688
+    },
+    "Normal (Fantasia)": {
+      "records": 40,
+      "reference_beats": 285311,
+      "tp": 278095,
+      "fp": 8307,
+      "fn": 7216,
+      "sensitivity": 97.4708300766532,
+      "positive_predictivity": 97.09953142785315
+    }
+  },
+  "overall": {
+    "records": 57,
+    "reference_beats": 329761,
+    "tp": 322013,
+    "fp": 9156,
+    "fn": 7748,
+    "sensitivity": 97.65041954627746,
+    "positive_predictivity": 97.2352484683047
+  }
+}

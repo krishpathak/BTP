@@ -1,0 +1,1123 @@
+{
+  "generated": "2026-09-17T11:03:15",
+  "n_cad": 44750,
+  "n_normal": 286374,
+  "n_beats": 331124,
+  "n_features": 60,
+  "cv_folds": 10,
+  "operators": {
+    "TKEO": {
+      "best_params": {
+        "method": "LogitBoost",
+        "n_estimators": 97.12296737095845,
+        "learn_rate": 0.4041270149885103,
+        "max_num_splits": 32.63937590967232,
+        "min_leaf_size": 20.07929254564505
+      },
+      "bo_history": [
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 82.41375352280242,
+            "learn_rate": 0.5214297905300547,
+            "max_num_splits": 620.0807367192691,
+            "min_leaf_size": 1.4794532279853685
+          },
+          "error": 0.014866666666666695
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 173.08560750108757,
+            "learn_rate": 0.37336070725030324,
+            "max_num_splits": 17.79034636622537,
+            "min_leaf_size": 6.5084573250286155
+          },
+          "error": 0.011433333333333295
+        },
+        {
+          "params": {
+            "method": "Bag",
+            "n_estimators": 253.4464681419289,
+            "learn_rate": 0.19396806804067668,
+            "max_num_splits": 1355.7303262624634,
+            "min_leaf_size": 6.322456443578101
+          },
+          "error": 0.018966666666666798
+        },
+        {
+          "params": {
+            "method": "Bag",
+            "n_estimators": 107.57368397007792,
+            "learn_rate": 0.013416354101688918,
+            "max_num_splits": 1397.5464779086049,
+            "min_leaf_size": 13.832465253898887
+          },
+          "error": 0.022299999999999986
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 67.86521399275378,
+            "learn_rate": 0.8737678255441985,
+            "max_num_splits": 2102.7914984424297,
+            "min_leaf_size": 25.462479039112775
+          },
+          "error": 0.01313333333333333
+        },
+        {
+          "params": {
+            "method": "Bag",
+            "n_estimators": 87.87033020935763,
+            "learn_rate": 0.01223510023365086,
+            "max_num_splits": 20.946037327453777,
+            "min_leaf_size": 17.128105944872736
+          },
+          "error": 0.054166666666666696
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 278.3754852955394,
+            "learn_rate": 0.044838462907863516,
+            "max_num_splits": 80.6798979669766,
+            "min_leaf_size": 7.048590869702129
+          },
+          "error": 0.011633333333333384
+        },
+        {
+          "params": {
+            "method": "Bag",
+            "n_estimators": 40.46157276609095,
+            "learn_rate": 0.08941489120323662,
+            "max_num_splits": 32.94948797966535,
+            "min_leaf_size": 16.210806560530866
+          },
+          "error": 0.04093333333333338
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 60.22999154383976,
+            "learn_rate": 0.011292541559803816,
+            "max_num_splits": 196.2153635571229,
+            "min_leaf_size": 1.4158145529245578
+          },
+          "error": 0.05063333333333331
+        },
+        {
+          "params": {
+            "method": "Bag",
+            "n_estimators": 290.3439718811153,
+            "learn_rate": 0.27718404843442945,
+            "max_num_splits": 8.544560963403868,
+            "min_leaf_size": 32.82773717095936
+          },
+          "error": 0.07813333333333328
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 121.20374450785813,
+            "learn_rate": 0.018282823954801027,
+            "max_num_splits": 232.27839935405794,
+            "min_leaf_size": 6.607909043247718
+          },
+          "error": 0.022800000000000042
+        },
+        {
+          "params": {
+            "method": "Bag",
+            "n_estimators": 95.16160557658996,
+            "learn_rate": 0.9633796160001485,
+            "max_num_splits": 124.30662901174486,
+            "min_leaf_size": 5.246032964510531
+          },
+          "error": 0.023199999999999887
+        },
+        {
+          "params": {
+            "method": "Bag",
+            "n_estimators": 35.703078137616096,
+            "learn_rate": 0.044662198820138194,
+            "max_num_splits": 2773.0755962316466,
+            "min_leaf_size": 1.3310210535083187
+          },
+          "error": 0.016133333333333333
+        },
+        {
+          "params": {
+            "method": "Bag",
+            "n_estimators": 49.34891548436311,
+            "learn_rate": 0.30632491834317627,
+            "max_num_splits": 4031.238530594618,
+            "min_leaf_size": 63.666351314262634
+          },
+          "error": 0.03823333333333334
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 211.99455449957864,
+            "learn_rate": 0.02456913683651106,
+            "max_num_splits": 1298.565954317461,
+            "min_leaf_size": 2.572564350233732
+          },
+          "error": 0.020166666666666666
+        },
+        {
+          "params": {
+            "method": "Bag",
+            "n_estimators": 89.63358800310196,
+            "learn_rate": 0.06283920438416497,
+            "max_num_splits": 8.263003959373016,
+            "min_leaf_size": 2.877713417560799
+          },
+          "error": 0.07740000000000014
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 134.54551126382836,
+            "learn_rate": 0.010752105905741414,
+            "max_num_splits": 38.05575393428545,
+            "min_leaf_size": 7.537472170604331
+          },
+          "error": 0.03159999999999996
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 84.2903067290672,
+            "learn_rate": 0.02554016183449127,
+            "max_num_splits": 1033.3256135510542,
+            "min_leaf_size": 9.453894292088846
+          },
+          "error": 0.022466666666666746
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 55.78778152429492,
+            "learn_rate": 0.20402276733413335,
+            "max_num_splits": 8.117275043249618,
+            "min_leaf_size": 53.87508678865348
+          },
+          "error": 0.020266666666666655
+        },
+        {
+          "params": {
+            "method": "Bag",
+            "n_estimators": 98.47234014399655,
+            "learn_rate": 0.9340683666038552,
+            "max_num_splits": 1234.0259525688487,
+            "min_leaf_size": 1.6594976710129612
+          },
+          "error": 0.015766666666666707
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 92.55552234595864,
+            "learn_rate": 0.9152948801681423,
+            "max_num_splits": 91.26718713294692,
+            "min_leaf_size": 32.52547178209758
+          },
+          "error": 0.013633333333333386
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 288.7136372058237,
+            "learn_rate": 0.5351026865976536,
+            "max_num_splits": 3854.565737524939,
+            "min_leaf_size": 18.72458541437357
+          },
+          "error": 0.011966666666666681
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 260.2743272278716,
+            "learn_rate": 0.7950442782456439,
+            "max_num_splits": 163.95792603435507,
+            "min_leaf_size": 3.505534655290923
+          },
+          "error": 0.14916666666666667
+        },
+        {
+          "params": {
+            "method": "Bag",
+            "n_estimators": 244.79992745053468,
+            "learn_rate": 0.04794554883830849,
+            "max_num_splits": 144.64230086004622,
+            "min_leaf_size": 2.162848361033788
+          },
+          "error": 0.021366666666666756
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 97.12296737095845,
+            "learn_rate": 0.4041270149885103,
+            "max_num_splits": 32.63937590967232,
+            "min_leaf_size": 20.07929254564505
+          },
+          "error": 0.011366666666666747
+        },
+        {
+          "params": {
+            "method": "Bag",
+            "n_estimators": 161.34545459017073,
+            "learn_rate": 0.44625153836259185,
+            "max_num_splits": 108.98224190549757,
+            "min_leaf_size": 20.15948057879435
+          },
+          "error": 0.026033333333333353
+        },
+        {
+          "params": {
+            "method": "Bag",
+            "n_estimators": 37.49950600142024,
+            "learn_rate": 0.58681190728238,
+            "max_num_splits": 1505.7337443411495,
+            "min_leaf_size": 62.62877869463308
+          },
+          "error": 0.03836666666666677
+        },
+        {
+          "params": {
+            "method": "Bag",
+            "n_estimators": 85.41843007345443,
+            "learn_rate": 0.014902101506163914,
+            "max_num_splits": 11.03935454641216,
+            "min_leaf_size": 30.656718157784155
+          },
+          "error": 0.06846666666666668
+        }
+      ],
+      "segments": {
+        "All": {
+          "accuracy": 99.017890578756,
+          "sensitivity": 96.78882681564247,
+          "specificity": 99.36621341322885,
+          "precision": 95.9781067186669,
+          "f1": 96.38176194396848,
+          "mcc": 0.9581474402351642,
+          "tp": 43313,
+          "tn": 284559,
+          "fp": 1815,
+          "fn": 1437,
+          "fold_accuracy_mean": 99.01789074453313,
+          "fold_accuracy_std": 0.09922620872760501,
+          "seconds": 113.0,
+          "n_features": 60
+        },
+        "Seg1": {
+          "accuracy": 97.11920609801766,
+          "sensitivity": 88.11843575418993,
+          "specificity": 98.52570414911969,
+          "precision": 90.32871377849044,
+          "f1": 89.20988631864714,
+          "mcc": 0.8755682449244515,
+          "tp": 39433,
+          "tn": 282152,
+          "fp": 4222,
+          "fn": 5317,
+          "fold_accuracy_mean": 97.11920585478323,
+          "fold_accuracy_std": 0.08455257501535442,
+          "seconds": 76.8,
+          "n_features": 20
+        },
+        "Seg2": {
+          "accuracy": 97.54623645522523,
+          "sensitivity": 90.09162011173184,
+          "specificity": 98.71112601004282,
+          "precision": 91.61269797986684,
+          "f1": 90.84579244453958,
+          "mcc": 0.8943332413513485,
+          "tp": 40316,
+          "tn": 282683,
+          "fp": 3691,
+          "fn": 4434,
+          "fold_accuracy_mean": 97.54623691983085,
+          "fold_accuracy_std": 0.13751005676445632,
+          "seconds": 91.8,
+          "n_features": 20
+        },
+        "Seg3": {
+          "accuracy": 96.1742428818207,
+          "sensitivity": 85.41005586592179,
+          "specificity": 97.85629980375313,
+          "precision": 86.1609558160505,
+          "f1": 85.78386264167882,
+          "mcc": 0.8357469230933507,
+          "tp": 38221,
+          "tn": 280235,
+          "fp": 6139,
+          "fn": 6529,
+          "fold_accuracy_mean": 96.17424302508633,
+          "fold_accuracy_std": 0.08136347885201313,
+          "seconds": 47.3,
+          "n_features": 20
+        }
+      },
+      "subject_wise": {
+        "accuracy": 84.90867469588433,
+        "sensitivity": 67.97765363128492,
+        "specificity": 87.55438692060034,
+        "precision": 46.04834925296317,
+        "f1": 54.90429650485963,
+        "mcc": 0.47507242001393224,
+        "tp": 30420,
+        "tn": 250733,
+        "fp": 35641,
+        "fn": 14330,
+        "fold_accuracy_mean": 84.96539865628363,
+        "fold_accuracy_std": 9.314510963377195
+      }
+    },
+    "AGO": {
+      "best_params": {
+        "method": "LogitBoost",
+        "n_estimators": 278.3754852955394,
+        "learn_rate": 0.044838462907863516,
+        "max_num_splits": 80.6798979669766,
+        "min_leaf_size": 7.048590869702129
+      },
+      "bo_history": [
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 82.41375352280242,
+            "learn_rate": 0.5214297905300547,
+            "max_num_splits": 620.0807367192691,
+            "min_leaf_size": 1.4794532279853685
+          },
+          "error": 0.015266666666666762
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 173.08560750108757,
+            "learn_rate": 0.37336070725030324,
+            "max_num_splits": 17.79034636622537,
+            "min_leaf_size": 6.5084573250286155
+          },
+          "error": 0.011733333333333373
+        },
+        {
+          "params": {
+            "method": "Bag",
+            "n_estimators": 253.4464681419289,
+            "learn_rate": 0.19396806804067668,
+            "max_num_splits": 1355.7303262624634,
+            "min_leaf_size": 6.322456443578101
+          },
+          "error": 0.017633333333333168
+        },
+        {
+          "params": {
+            "method": "Bag",
+            "n_estimators": 107.57368397007792,
+            "learn_rate": 0.013416354101688918,
+            "max_num_splits": 1397.5464779086049,
+            "min_leaf_size": 13.832465253898887
+          },
+          "error": 0.021100000000000008
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 67.86521399275378,
+            "learn_rate": 0.8737678255441985,
+            "max_num_splits": 2102.7914984424297,
+            "min_leaf_size": 25.462479039112775
+          },
+          "error": 0.01316666666666666
+        },
+        {
+          "params": {
+            "method": "Bag",
+            "n_estimators": 87.87033020935763,
+            "learn_rate": 0.01223510023365086,
+            "max_num_splits": 20.946037327453777,
+            "min_leaf_size": 17.128105944872736
+          },
+          "error": 0.046566666666666645
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 278.3754852955394,
+            "learn_rate": 0.044838462907863516,
+            "max_num_splits": 80.6798979669766,
+            "min_leaf_size": 7.048590869702129
+          },
+          "error": 0.011099999999999999
+        },
+        {
+          "params": {
+            "method": "Bag",
+            "n_estimators": 40.46157276609095,
+            "learn_rate": 0.08941489120323662,
+            "max_num_splits": 32.94948797966535,
+            "min_leaf_size": 16.210806560530866
+          },
+          "error": 0.0383
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 296.12141888591674,
+            "learn_rate": 0.08511373542400223,
+            "max_num_splits": 1776.1385827600627,
+            "min_leaf_size": 2.753776235772207
+          },
+          "error": 0.013533333333333286
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 53.21938217418273,
+            "learn_rate": 0.010960596637790004,
+            "max_num_splits": 45.47062175991702,
+            "min_leaf_size": 5.465452736144041
+          },
+          "error": 0.1099
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 31.114810281380127,
+            "learn_rate": 0.9722495947036335,
+            "max_num_splits": 8.559863189956522,
+            "min_leaf_size": 9.119252362700111
+          },
+          "error": 0.04049999999999998
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 155.34140275874168,
+            "learn_rate": 0.04702604005901329,
+            "max_num_splits": 34.00359596081361,
+            "min_leaf_size": 15.438677606284429
+          },
+          "error": 0.013199999999999878
+        },
+        {
+          "params": {
+            "method": "Bag",
+            "n_estimators": 212.71701839077855,
+            "learn_rate": 0.010057644300198865,
+            "max_num_splits": 113.00810306981016,
+            "min_leaf_size": 4.548229842955511
+          },
+          "error": 0.021433333333333304
+        },
+        {
+          "params": {
+            "method": "Bag",
+            "n_estimators": 125.12438035756288,
+            "learn_rate": 0.9919405946479191,
+            "max_num_splits": 22.89253872659861,
+            "min_leaf_size": 4.828144706591167
+          },
+          "error": 0.04483333333333339
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 168.44377249420035,
+            "learn_rate": 0.12015981925854997,
+            "max_num_splits": 4094.7741344856304,
+            "min_leaf_size": 1.9828602964797697
+          },
+          "error": 0.014100000000000001
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 258.9771093851986,
+            "learn_rate": 0.8519939536973328,
+            "max_num_splits": 12.910773451057622,
+            "min_leaf_size": 11.410400849621148
+          },
+          "error": 0.04726666666666679
+        },
+        {
+          "params": {
+            "method": "Bag",
+            "n_estimators": 62.10943334993149,
+            "learn_rate": 0.27811779268849657,
+            "max_num_splits": 430.1603839821125,
+            "min_leaf_size": 3.453593014803426
+          },
+          "error": 0.01649999999999996
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 106.99961656055932,
+            "learn_rate": 0.10766497167417752,
+            "max_num_splits": 475.5173020164035,
+            "min_leaf_size": 10.2572422160028
+          },
+          "error": 0.0131
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 295.4441242293263,
+            "learn_rate": 0.010438851842921362,
+            "max_num_splits": 11.686983404908652,
+            "min_leaf_size": 15.888630625823593
+          },
+          "error": 0.031266666666666665
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 129.14699183283471,
+            "learn_rate": 0.2593319763139099,
+            "max_num_splits": 18.300640351051783,
+            "min_leaf_size": 2.112871342907037
+          },
+          "error": 0.011733333333333373
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 153.50429076904436,
+            "learn_rate": 0.016379763912457216,
+            "max_num_splits": 46.7296726817713,
+            "min_leaf_size": 45.97052905904566
+          },
+          "error": 0.020333333333333314
+        },
+        {
+          "params": {
+            "method": "Bag",
+            "n_estimators": 201.59377387319256,
+            "learn_rate": 0.02323004328485012,
+            "max_num_splits": 1486.409527483399,
+            "min_leaf_size": 50.47494408887796
+          },
+          "error": 0.032299999999999995
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 145.46171798687593,
+            "learn_rate": 0.15893211380718986,
+            "max_num_splits": 20.211939038884864,
+            "min_leaf_size": 63.88199279728398
+          },
+          "error": 0.011800000000000033
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 109.08731479207987,
+            "learn_rate": 0.044090802908371335,
+            "max_num_splits": 343.7338154209228,
+            "min_leaf_size": 1.1356546175532711
+          },
+          "error": 0.020000000000000018
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 30.021547205405597,
+            "learn_rate": 0.2711780152774308,
+            "max_num_splits": 11.300551681017168,
+            "min_leaf_size": 2.2886025765122513
+          },
+          "error": 0.02083333333333348
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 52.55136803863623,
+            "learn_rate": 0.5935706431484414,
+            "max_num_splits": 23.280292222128047,
+            "min_leaf_size": 24.356293137868622
+          },
+          "error": 0.018033333333333457
+        },
+        {
+          "params": {
+            "method": "Bag",
+            "n_estimators": 130.6824362064589,
+            "learn_rate": 0.010431876787225645,
+            "max_num_splits": 914.4474267807902,
+            "min_leaf_size": 4.767590584915797
+          },
+          "error": 0.016700000000000048
+        },
+        {
+          "params": {
+            "method": "Bag",
+            "n_estimators": 89.73206844428356,
+            "learn_rate": 0.20890642169211485,
+            "max_num_splits": 8.4975084349682,
+            "min_leaf_size": 44.33311676707017
+          },
+          "error": 0.07676666666666665
+        }
+      ],
+      "segments": {
+        "All": {
+          "accuracy": 99.32804629081554,
+          "sensitivity": 98.07821229050279,
+          "specificity": 99.52335058350269,
+          "precision": 96.98375870069606,
+          "f1": 97.5279151158269,
+          "mcc": 0.971411563230219,
+          "tp": 43890,
+          "tn": 285009,
+          "fp": 1365,
+          "fn": 860,
+          "fold_accuracy_mean": 99.32804614474132,
+          "fold_accuracy_std": 0.044760586340494145,
+          "seconds": 371.9,
+          "n_features": 60
+        },
+        "Seg1": {
+          "accuracy": 97.1593723197352,
+          "sensitivity": 87.84357541899442,
+          "specificity": 98.6150977393199,
+          "precision": 90.8355670579536,
+          "f1": 89.31452070979029,
+          "mcc": 0.8769336086042879,
+          "tp": 39310,
+          "tn": 282408,
+          "fp": 3966,
+          "fn": 5440,
+          "fold_accuracy_mean": 97.15937228810391,
+          "fold_accuracy_std": 0.10252405871331852,
+          "seconds": 258.5,
+          "n_features": 20
+        },
+        "Seg2": {
+          "accuracy": 98.61200033824187,
+          "sensitivity": 94.74860335195531,
+          "specificity": 99.21571092347769,
+          "precision": 94.96931416028312,
+          "f1": 94.85883037272362,
+          "mcc": 0.9405661522507426,
+          "tp": 42400,
+          "tn": 284128,
+          "fp": 2246,
+          "fn": 2350,
+          "fold_accuracy_mean": 98.61200035253077,
+          "fold_accuracy_std": 0.047466246200194566,
+          "seconds": 208.5,
+          "n_features": 20
+        },
+        "Seg3": {
+          "accuracy": 97.04551769125766,
+          "sensitivity": 87.83240223463687,
+          "specificity": 98.4851976785602,
+          "precision": 90.0602616685379,
+          "f1": 88.9323815234238,
+          "mcc": 0.8723701509076273,
+          "tp": 39305,
+          "tn": 282036,
+          "fp": 4338,
+          "fn": 5445,
+          "fold_accuracy_mean": 97.04551755198017,
+          "fold_accuracy_std": 0.07539811131329081,
+          "seconds": 231.1,
+          "n_features": 20
+        }
+      },
+      "subject_wise": {
+        "accuracy": 84.37473574854133,
+        "sensitivity": 69.67597765363128,
+        "specificity": 86.67162521737308,
+        "precision": 44.960994390690566,
+        "f1": 54.654291448654234,
+        "mcc": 0.4734286892250701,
+        "tp": 31180,
+        "tn": 248205,
+        "fp": 38169,
+        "fn": 13570,
+        "fold_accuracy_mean": 84.43214701183426,
+        "fold_accuracy_std": 10.232927719491325
+      }
+    },
+    "EDO": {
+      "best_params": {
+        "method": "LogitBoost",
+        "n_estimators": 140.2968389569337,
+        "learn_rate": 0.34818273520120974,
+        "max_num_splits": 404.2570361736244,
+        "min_leaf_size": 30.94120057299208
+      },
+      "bo_history": [
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 82.41375352280242,
+            "learn_rate": 0.5214297905300547,
+            "max_num_splits": 620.0807367192691,
+            "min_leaf_size": 1.4794532279853685
+          },
+          "error": 0.01429999999999998
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 173.08560750108757,
+            "learn_rate": 0.37336070725030324,
+            "max_num_splits": 17.79034636622537,
+            "min_leaf_size": 6.5084573250286155
+          },
+          "error": 0.01200000000000001
+        },
+        {
+          "params": {
+            "method": "Bag",
+            "n_estimators": 253.4464681419289,
+            "learn_rate": 0.19396806804067668,
+            "max_num_splits": 1355.7303262624634,
+            "min_leaf_size": 6.322456443578101
+          },
+          "error": 0.018133333333333335
+        },
+        {
+          "params": {
+            "method": "Bag",
+            "n_estimators": 107.57368397007792,
+            "learn_rate": 0.013416354101688918,
+            "max_num_splits": 1397.5464779086049,
+            "min_leaf_size": 13.832465253898887
+          },
+          "error": 0.022366666666666646
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 67.86521399275378,
+            "learn_rate": 0.8737678255441985,
+            "max_num_splits": 2102.7914984424297,
+            "min_leaf_size": 25.462479039112775
+          },
+          "error": 0.013333333333333308
+        },
+        {
+          "params": {
+            "method": "Bag",
+            "n_estimators": 87.87033020935763,
+            "learn_rate": 0.01223510023365086,
+            "max_num_splits": 20.946037327453777,
+            "min_leaf_size": 17.128105944872736
+          },
+          "error": 0.047633333333333305
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 278.3754852955394,
+            "learn_rate": 0.044838462907863516,
+            "max_num_splits": 80.6798979669766,
+            "min_leaf_size": 7.048590869702129
+          },
+          "error": 0.012566666666666615
+        },
+        {
+          "params": {
+            "method": "Bag",
+            "n_estimators": 40.46157276609095,
+            "learn_rate": 0.08941489120323662,
+            "max_num_splits": 32.94948797966535,
+            "min_leaf_size": 16.210806560530866
+          },
+          "error": 0.03926666666666667
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 230.12767352230043,
+            "learn_rate": 0.01264486074078585,
+            "max_num_splits": 2642.886028998725,
+            "min_leaf_size": 5.933992685297242
+          },
+          "error": 0.019033333333333347
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 88.83947389151938,
+            "learn_rate": 0.014693603374145738,
+            "max_num_splits": 8.941898223802596,
+            "min_leaf_size": 20.41485256027778
+          },
+          "error": 0.06463333333333343
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 44.049466501099396,
+            "learn_rate": 0.014649037982409439,
+            "max_num_splits": 9.393751660943913,
+            "min_leaf_size": 2.5669065539915374
+          },
+          "error": 0.12190000000000001
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 69.96359329866672,
+            "learn_rate": 0.4670895305703139,
+            "max_num_splits": 2431.451447198531,
+            "min_leaf_size": 33.77548227570801
+          },
+          "error": 0.01193333333333324
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 141.54744898849205,
+            "learn_rate": 0.4086520539628592,
+            "max_num_splits": 3144.7388705843287,
+            "min_leaf_size": 1.0112486009553128
+          },
+          "error": 0.013366666666666638
+        },
+        {
+          "params": {
+            "method": "Bag",
+            "n_estimators": 179.67805930205975,
+            "learn_rate": 0.031021961455623876,
+            "max_num_splits": 889.9676889200973,
+            "min_leaf_size": 14.423471670788889
+          },
+          "error": 0.022433333333333305
+        },
+        {
+          "params": {
+            "method": "Bag",
+            "n_estimators": 48.16517651270525,
+            "learn_rate": 0.024674919802421466,
+            "max_num_splits": 3985.3134464955797,
+            "min_leaf_size": 63.793353598127034
+          },
+          "error": 0.038933333333333264
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 119.14731099107647,
+            "learn_rate": 0.03834606920085739,
+            "max_num_splits": 8.315085540617558,
+            "min_leaf_size": 1.015807205510093
+          },
+          "error": 0.028933333333333255
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 292.6956191582615,
+            "learn_rate": 0.3608824696918901,
+            "max_num_splits": 3844.4198419738022,
+            "min_leaf_size": 1.303859174827119
+          },
+          "error": 0.014066666666666672
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 57.7083693656808,
+            "learn_rate": 0.26322242546317504,
+            "max_num_splits": 8.335692490230928,
+            "min_leaf_size": 9.397708810105732
+          },
+          "error": 0.019166666666666665
+        },
+        {
+          "params": {
+            "method": "Bag",
+            "n_estimators": 125.49663889733026,
+            "learn_rate": 0.17068856584017666,
+            "max_num_splits": 8.055022678489408,
+            "min_leaf_size": 43.94617212145839
+          },
+          "error": 0.07333333333333347
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 264.6795086060627,
+            "learn_rate": 0.23891709240205017,
+            "max_num_splits": 336.54375188035465,
+            "min_leaf_size": 1.1408723643176777
+          },
+          "error": 0.013966666666666794
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 65.40464436828638,
+            "learn_rate": 0.3798844150962112,
+            "max_num_splits": 3773.6290349346455,
+            "min_leaf_size": 8.801129389216774
+          },
+          "error": 0.013199999999999878
+        },
+        {
+          "params": {
+            "method": "Bag",
+            "n_estimators": 57.42149661836796,
+            "learn_rate": 0.02394576309141908,
+            "max_num_splits": 3865.641597473352,
+            "min_leaf_size": 1.889017740563931
+          },
+          "error": 0.015933333333333355
+        },
+        {
+          "params": {
+            "method": "Bag",
+            "n_estimators": 52.990337246197484,
+            "learn_rate": 0.07394469448572658,
+            "max_num_splits": 4005.354103708704,
+            "min_leaf_size": 3.34846642987486
+          },
+          "error": 0.017233333333333323
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 46.23539339960206,
+            "learn_rate": 0.03224035147309999,
+            "max_num_splits": 198.72995606490065,
+            "min_leaf_size": 9.795971313537445
+          },
+          "error": 0.023633333333333284
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 35.26250857573157,
+            "learn_rate": 0.07781288071236858,
+            "max_num_splits": 3983.558076747246,
+            "min_leaf_size": 29.233204908438026
+          },
+          "error": 0.018400000000000083
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 140.2968389569337,
+            "learn_rate": 0.34818273520120974,
+            "max_num_splits": 404.2570361736244,
+            "min_leaf_size": 30.94120057299208
+          },
+          "error": 0.011666666666666714
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 240.3666318073207,
+            "learn_rate": 0.6251463291831925,
+            "max_num_splits": 496.3197750057718,
+            "min_leaf_size": 43.199381163601
+          },
+          "error": 0.011666666666666714
+        },
+        {
+          "params": {
+            "method": "LogitBoost",
+            "n_estimators": 35.27620613113193,
+            "learn_rate": 0.010012041140120316,
+            "max_num_splits": 3101.6114922175957,
+            "min_leaf_size": 26.12526454628241
+          },
+          "error": 0.13513333333333333
+        }
+      ],
+      "segments": {
+        "All": {
+          "accuracy": 99.4684770659934,
+          "sensitivity": 98.55865921787709,
+          "specificity": 99.6106490114326,
+          "precision": 97.5342768686422,
+          "f1": 98.0437923752362,
+          "mcc": 0.9773804516730542,
+          "tp": 44105,
+          "tn": 285259,
+          "fp": 1115,
+          "fn": 645,
+          "fold_accuracy_mean": 99.46847702939527,
+          "fold_accuracy_std": 0.03834441155996595,
+          "seconds": 318.0,
+          "n_features": 60
+        },
+        "Seg1": {
+          "accuracy": 97.919208514031,
+          "sensitivity": 92.00670391061453,
+          "specificity": 98.84312123307284,
+          "precision": 92.55271321314571,
+          "f1": 92.27890089201668,
+          "mcc": 0.9107702733399949,
+          "tp": 41173,
+          "tn": 283061,
+          "fp": 3313,
+          "fn": 3577,
+          "fold_accuracy_mean": 97.91920992724458,
+          "fold_accuracy_std": 0.23679640208505776,
+          "seconds": 237.4,
+          "n_features": 20
+        },
+        "Seg2": {
+          "accuracy": 97.82951401891738,
+          "sensitivity": 92.52960893854748,
+          "specificity": 98.65769937214971,
+          "precision": 91.50516010695895,
+          "f1": 92.01453317185364,
+          "mcc": 0.907605353226539,
+          "tp": 41407,
+          "tn": 282530,
+          "fp": 3844,
+          "fn": 3343,
+          "fold_accuracy_mean": 97.82950145229233,
+          "fold_accuracy_std": 1.7979949834697873,
+          "seconds": 268.6,
+          "n_features": 20
+        },
+        "Seg3": {
+          "accuracy": 97.76216764716541,
+          "sensitivity": 91.95977653631286,
+          "specificity": 98.66887357092473,
+          "precision": 91.52210657414821,
+          "f1": 91.7404195554763,
+          "mcc": 0.904465260698442,
+          "tp": 41152,
+          "tn": 282562,
+          "fp": 3812,
+          "fn": 3598,
+          "fold_accuracy_mean": 97.76216771963914,
+          "fold_accuracy_std": 0.04006124390188078,
+          "seconds": 226.9,
+          "n_features": 20
+        }
+      },
+      "subject_wise": {
+        "accuracy": 86.52106159626001,
+        "sensitivity": 73.93296089385476,
+        "specificity": 88.48813090573864,
+        "precision": 50.089323563253195,
+        "f1": 59.71913864370679,
+        "mcc": 0.5340350474573989,
+        "tp": 33085,
+        "tn": 253407,
+        "fp": 32967,
+        "fn": 11665,
+        "fold_accuracy_mean": 86.54353417211912,
+        "fold_accuracy_std": 9.874967418293574
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+Validating R-peak detection on 57 records (tolerance 150 ms = 39 samples) ...
+[Parallel(n_jobs=10)]: Using backend LokyBackend with 10 concurrent workers.
+[Parallel(n_jobs=10)]: Done  50 out of  57 | elapsed:   55.4s remaining:    7.7s
+[Parallel(n_jobs=10)]: Done  57 out of  57 | elapsed:   58.0s finished
+
+CAD (INCART)         Se =  98.80 %   +P =  98.10 %   (44,450 reference beats)
+Normal (Fantasia)    Se =  97.47 %   +P =  97.10 %   (285,311 reference beats)
+Overall              Se =  97.65 %   +P =  97.24 %   (329,761 reference beats)
+
+Saved -> C:\Users\prakruti\Documents\BTP\results\tables\detector_validation.json

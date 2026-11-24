@@ -1,0 +1,16 @@
+Processing 57 records with n_jobs=11 ...
+[Parallel(n_jobs=11)]: Using backend LokyBackend with 11 concurrent workers.
+[Parallel(n_jobs=11)]: Done   3 tasks      | elapsed:  5.0min
+[Parallel(n_jobs=11)]: Done  10 tasks      | elapsed:  6.5min
+[Parallel(n_jobs=11)]: Done  19 tasks      | elapsed: 10.8min
+[Parallel(n_jobs=11)]: Done  28 tasks      | elapsed: 19.8min
+[Parallel(n_jobs=11)]: Done  42 out of  57 | elapsed: 43.3min remaining: 15.5min
+[Parallel(n_jobs=11)]: Done  48 out of  57 | elapsed: 50.9min remaining:  9.5min
+[Parallel(n_jobs=11)]: Done  54 out of  57 | elapsed: 58.0min remaining:  3.2min
+[Parallel(n_jobs=11)]: Done  57 out of  57 | elapsed: 59.3min finished
+
+Done: 57/57 records, 331124 beats total
+Assembled -> C:\Users\prakruti\Documents\BTP\data\processed\dataset.npz
+  CAD beats   : 44750
+  Normal beats: 286374
+  Features    : 60 per operator

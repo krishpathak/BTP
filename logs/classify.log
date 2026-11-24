@@ -1,0 +1,561 @@
+
+=== TKEO : 331124 beats x 60 features ===
+  Bayesian optimisation on 30000 beats, 3-fold inner CV, 20 iterations
+  [init] 0.014867  {'method': 'LogitBoost', 'n_estimators': 82.41375352280242, 'learn_rate': 0.5214297905300547, 'max_num_splits': 620.0807367192691, 'min_leaf_size': 1.4794532279853685}
+  [init] 0.011433  {'method': 'LogitBoost', 'n_estimators': 173.08560750108757, 'learn_rate': 0.37336070725030324, 'max_num_splits': 17.79034636622537, 'min_leaf_size': 6.5084573250286155}
+  [init] 0.018967  {'method': 'Bag', 'n_estimators': 253.4464681419289, 'learn_rate': 0.19396806804067668, 'max_num_splits': 1355.7303262624634, 'min_leaf_size': 6.322456443578101}
+  [init] 0.022300  {'method': 'Bag', 'n_estimators': 107.57368397007792, 'learn_rate': 0.013416354101688918, 'max_num_splits': 1397.5464779086049, 'min_leaf_size': 13.832465253898887}
+  [init] 0.013133  {'method': 'LogitBoost', 'n_estimators': 67.86521399275378, 'learn_rate': 0.8737678255441985, 'max_num_splits': 2102.7914984424297, 'min_leaf_size': 25.462479039112775}
+  [init] 0.054167  {'method': 'Bag', 'n_estimators': 87.87033020935763, 'learn_rate': 0.01223510023365086, 'max_num_splits': 20.946037327453777, 'min_leaf_size': 17.128105944872736}
+  [init] 0.011633  {'method': 'LogitBoost', 'n_estimators': 278.3754852955394, 'learn_rate': 0.044838462907863516, 'max_num_splits': 80.6798979669766, 'min_leaf_size': 7.048590869702129}
+  [init] 0.040933  {'method': 'Bag', 'n_estimators': 40.46157276609095, 'learn_rate': 0.08941489120323662, 'max_num_splits': 32.94948797966535, 'min_leaf_size': 16.210806560530866}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 4 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [ 1/20] 0.050633  (best 0.011433)  {'method': 'LogitBoost', 'n_estimators': 60.22999154383976, 'learn_rate': 0.011292541559803816, 'max_num_splits': 196.2153635571229, 'min_leaf_size': 1.4158145529245578}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 4 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [ 2/20] 0.078133  (best 0.011433)  {'method': 'Bag', 'n_estimators': 290.3439718811153, 'learn_rate': 0.27718404843442945, 'max_num_splits': 8.544560963403868, 'min_leaf_size': 32.82773717095936}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 2 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 4 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [ 3/20] 0.022800  (best 0.011433)  {'method': 'LogitBoost', 'n_estimators': 121.20374450785813, 'learn_rate': 0.018282823954801027, 'max_num_splits': 232.27839935405794, 'min_leaf_size': 6.607909043247718}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [ 4/20] 0.023200  (best 0.011433)  {'method': 'Bag', 'n_estimators': 95.16160557658996, 'learn_rate': 0.9633796160001485, 'max_num_splits': 124.30662901174486, 'min_leaf_size': 5.246032964510531}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 2 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [ 5/20] 0.016133  (best 0.011433)  {'method': 'Bag', 'n_estimators': 35.703078137616096, 'learn_rate': 0.044662198820138194, 'max_num_splits': 2773.0755962316466, 'min_leaf_size': 1.3310210535083187}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 2 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [ 6/20] 0.038233  (best 0.011433)  {'method': 'Bag', 'n_estimators': 49.34891548436311, 'learn_rate': 0.30632491834317627, 'max_num_splits': 4031.238530594618, 'min_leaf_size': 63.666351314262634}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 2 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [ 7/20] 0.020167  (best 0.011433)  {'method': 'LogitBoost', 'n_estimators': 211.99455449957864, 'learn_rate': 0.02456913683651106, 'max_num_splits': 1298.565954317461, 'min_leaf_size': 2.572564350233732}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 2 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [ 8/20] 0.077400  (best 0.011433)  {'method': 'Bag', 'n_estimators': 89.63358800310196, 'learn_rate': 0.06283920438416497, 'max_num_splits': 8.263003959373016, 'min_leaf_size': 2.877713417560799}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 2 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 4 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [ 9/20] 0.031600  (best 0.011433)  {'method': 'LogitBoost', 'n_estimators': 134.54551126382836, 'learn_rate': 0.010752105905741414, 'max_num_splits': 38.05575393428545, 'min_leaf_size': 7.537472170604331}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 2 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 4 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [10/20] 0.022467  (best 0.011433)  {'method': 'LogitBoost', 'n_estimators': 84.2903067290672, 'learn_rate': 0.02554016183449127, 'max_num_splits': 1033.3256135510542, 'min_leaf_size': 9.453894292088846}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 4 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [11/20] 0.020267  (best 0.011433)  {'method': 'LogitBoost', 'n_estimators': 55.78778152429492, 'learn_rate': 0.20402276733413335, 'max_num_splits': 8.117275043249618, 'min_leaf_size': 53.87508678865348}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 4 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [12/20] 0.015767  (best 0.011433)  {'method': 'Bag', 'n_estimators': 98.47234014399655, 'learn_rate': 0.9340683666038552, 'max_num_splits': 1234.0259525688487, 'min_leaf_size': 1.6594976710129612}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 4 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [13/20] 0.013633  (best 0.011433)  {'method': 'LogitBoost', 'n_estimators': 92.55552234595864, 'learn_rate': 0.9152948801681423, 'max_num_splits': 91.26718713294692, 'min_leaf_size': 32.52547178209758}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 4 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [14/20] 0.011967  (best 0.011433)  {'method': 'LogitBoost', 'n_estimators': 288.7136372058237, 'learn_rate': 0.5351026865976536, 'max_num_splits': 3854.565737524939, 'min_leaf_size': 18.72458541437357}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 4 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [15/20] 0.149167  (best 0.011433)  {'method': 'LogitBoost', 'n_estimators': 260.2743272278716, 'learn_rate': 0.7950442782456439, 'max_num_splits': 163.95792603435507, 'min_leaf_size': 3.505534655290923}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 3 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 4 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [16/20] 0.021367  (best 0.011433)  {'method': 'Bag', 'n_estimators': 244.79992745053468, 'learn_rate': 0.04794554883830849, 'max_num_splits': 144.64230086004622, 'min_leaf_size': 2.162848361033788}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 3 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 4 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [17/20] 0.011367  (best 0.011367)  {'method': 'LogitBoost', 'n_estimators': 97.12296737095845, 'learn_rate': 0.4041270149885103, 'max_num_splits': 32.63937590967232, 'min_leaf_size': 20.07929254564505}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 3 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 4 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [18/20] 0.026033  (best 0.011367)  {'method': 'Bag', 'n_estimators': 161.34545459017073, 'learn_rate': 0.44625153836259185, 'max_num_splits': 108.98224190549757, 'min_leaf_size': 20.15948057879435}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 4 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [19/20] 0.038367  (best 0.011367)  {'method': 'Bag', 'n_estimators': 37.49950600142024, 'learn_rate': 0.58681190728238, 'max_num_splits': 1505.7337443411495, 'min_leaf_size': 62.62877869463308}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 3 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 4 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [20/20] 0.068467  (best 0.011367)  {'method': 'Bag', 'n_estimators': 85.41843007345443, 'learn_rate': 0.014902101506163914, 'max_num_splits': 11.03935454641216, 'min_leaf_size': 30.656718157784155}
+  best inner error = 0.011367  ->  {'method': 'LogitBoost', 'n_estimators': 97.12296737095845, 'learn_rate': 0.4041270149885103, 'max_num_splits': 32.63937590967232, 'min_leaf_size': 20.07929254564505}
+  [TKEO] 10-fold CV on All (60 features)
+    fold 1/10: acc=98.852%  (11s)
+    fold 2/10: acc=99.085%  (12s)
+    fold 3/10: acc=99.031%  (11s)
+    fold 4/10: acc=99.049%  (11s)
+    fold 5/10: acc=98.952%  (12s)
+    fold 6/10: acc=98.892%  (10s)
+    fold 7/10: acc=98.973%  (10s)
+    fold 8/10: acc=99.118%  (11s)
+    fold 9/10: acc=99.028%  (11s)
+    fold 10/10: acc=99.200%  (11s)
+     -> acc=99.02%  sen=96.79%  spe=99.37%  MCC=0.9581
+  [TKEO] 10-fold CV on Seg1 (20 features)
+    fold 1/10: acc=97.083%  (7s)
+    fold 2/10: acc=97.143%  (6s)
+    fold 3/10: acc=97.107%  (7s)
+    fold 4/10: acc=97.225%  (7s)
+    fold 5/10: acc=97.194%  (7s)
+    fold 6/10: acc=97.149%  (7s)
+    fold 7/10: acc=96.956%  (6s)
+    fold 8/10: acc=96.983%  (9s)
+    fold 9/10: acc=97.176%  (12s)
+    fold 10/10: acc=97.176%  (9s)
+     -> acc=97.12%  sen=88.12%  spe=98.53%  MCC=0.8756
+  [TKEO] 10-fold CV on Seg2 (20 features)
+    fold 1/10: acc=97.518%  (16s)
+    fold 2/10: acc=97.496%  (12s)
+    fold 3/10: acc=97.554%  (8s)
+    fold 4/10: acc=97.463%  (4s)
+    fold 5/10: acc=97.792%  (19s)
+    fold 6/10: acc=97.762%  (5s)
+    fold 7/10: acc=97.394%  (18s)
+    fold 8/10: acc=97.536%  (4s)
+    fold 9/10: acc=97.611%  (3s)
+    fold 10/10: acc=97.336%  (3s)
+     -> acc=97.55%  sen=90.09%  spe=98.71%  MCC=0.8943
+  [TKEO] 10-fold CV on Seg3 (20 features)
+    fold 1/10: acc=96.029%  (3s)
+    fold 2/10: acc=96.249%  (13s)
+    fold 3/10: acc=96.189%  (3s)
+    fold 4/10: acc=96.183%  (3s)
+    fold 5/10: acc=96.152%  (9s)
+    fold 6/10: acc=96.143%  (4s)
+    fold 7/10: acc=96.273%  (3s)
+    fold 8/10: acc=96.207%  (3s)
+    fold 9/10: acc=96.273%  (3s)
+    fold 10/10: acc=96.044%  (3s)
+     -> acc=96.17%  sen=85.41%  spe=97.86%  MCC=0.8357
+  [TKEO] subject-wise CV
+    fold 1/7: acc=64.879%  (5s)
+    fold 2/7: acc=88.278%  (6s)
+    fold 3/7: acc=84.829%  (6s)
+    fold 4/7: acc=96.147%  (6s)
+    fold 5/7: acc=84.263%  (11s)
+    fold 6/7: acc=83.352%  (11s)
+    fold 7/7: acc=93.010%  (11s)
+     -> acc=84.91%
+
+=== AGO : 331124 beats x 60 features ===
+  Bayesian optimisation on 30000 beats, 3-fold inner CV, 20 iterations
+  [init] 0.015267  {'method': 'LogitBoost', 'n_estimators': 82.41375352280242, 'learn_rate': 0.5214297905300547, 'max_num_splits': 620.0807367192691, 'min_leaf_size': 1.4794532279853685}
+  [init] 0.011733  {'method': 'LogitBoost', 'n_estimators': 173.08560750108757, 'learn_rate': 0.37336070725030324, 'max_num_splits': 17.79034636622537, 'min_leaf_size': 6.5084573250286155}
+  [init] 0.017633  {'method': 'Bag', 'n_estimators': 253.4464681419289, 'learn_rate': 0.19396806804067668, 'max_num_splits': 1355.7303262624634, 'min_leaf_size': 6.322456443578101}
+  [init] 0.021100  {'method': 'Bag', 'n_estimators': 107.57368397007792, 'learn_rate': 0.013416354101688918, 'max_num_splits': 1397.5464779086049, 'min_leaf_size': 13.832465253898887}
+  [init] 0.013167  {'method': 'LogitBoost', 'n_estimators': 67.86521399275378, 'learn_rate': 0.8737678255441985, 'max_num_splits': 2102.7914984424297, 'min_leaf_size': 25.462479039112775}
+  [init] 0.046567  {'method': 'Bag', 'n_estimators': 87.87033020935763, 'learn_rate': 0.01223510023365086, 'max_num_splits': 20.946037327453777, 'min_leaf_size': 17.128105944872736}
+  [init] 0.011100  {'method': 'LogitBoost', 'n_estimators': 278.3754852955394, 'learn_rate': 0.044838462907863516, 'max_num_splits': 80.6798979669766, 'min_leaf_size': 7.048590869702129}
+  [init] 0.038300  {'method': 'Bag', 'n_estimators': 40.46157276609095, 'learn_rate': 0.08941489120323662, 'max_num_splits': 32.94948797966535, 'min_leaf_size': 16.210806560530866}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 2 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 4 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [ 1/20] 0.013533  (best 0.011100)  {'method': 'LogitBoost', 'n_estimators': 296.12141888591674, 'learn_rate': 0.08511373542400223, 'max_num_splits': 1776.1385827600627, 'min_leaf_size': 2.753776235772207}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [ 2/20] 0.109900  (best 0.011100)  {'method': 'LogitBoost', 'n_estimators': 53.21938217418273, 'learn_rate': 0.010960596637790004, 'max_num_splits': 45.47062175991702, 'min_leaf_size': 5.465452736144041}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 3 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 4 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [ 3/20] 0.040500  (best 0.011100)  {'method': 'LogitBoost', 'n_estimators': 31.114810281380127, 'learn_rate': 0.9722495947036335, 'max_num_splits': 8.559863189956522, 'min_leaf_size': 9.119252362700111}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 3 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 4 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [ 4/20] 0.013200  (best 0.011100)  {'method': 'LogitBoost', 'n_estimators': 155.34140275874168, 'learn_rate': 0.04702604005901329, 'max_num_splits': 34.00359596081361, 'min_leaf_size': 15.438677606284429}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 3 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 4 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [ 5/20] 0.021433  (best 0.011100)  {'method': 'Bag', 'n_estimators': 212.71701839077855, 'learn_rate': 0.010057644300198865, 'max_num_splits': 113.00810306981016, 'min_leaf_size': 4.548229842955511}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 3 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 4 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [ 6/20] 0.044833  (best 0.011100)  {'method': 'Bag', 'n_estimators': 125.12438035756288, 'learn_rate': 0.9919405946479191, 'max_num_splits': 22.89253872659861, 'min_leaf_size': 4.828144706591167}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 4 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [ 7/20] 0.014100  (best 0.011100)  {'method': 'LogitBoost', 'n_estimators': 168.44377249420035, 'learn_rate': 0.12015981925854997, 'max_num_splits': 4094.7741344856304, 'min_leaf_size': 1.9828602964797697}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 3 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 4 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [ 8/20] 0.047267  (best 0.011100)  {'method': 'LogitBoost', 'n_estimators': 258.9771093851986, 'learn_rate': 0.8519939536973328, 'max_num_splits': 12.910773451057622, 'min_leaf_size': 11.410400849621148}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 3 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 4 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [ 9/20] 0.016500  (best 0.011100)  {'method': 'Bag', 'n_estimators': 62.10943334993149, 'learn_rate': 0.27811779268849657, 'max_num_splits': 430.1603839821125, 'min_leaf_size': 3.453593014803426}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 3 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 4 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [10/20] 0.013100  (best 0.011100)  {'method': 'LogitBoost', 'n_estimators': 106.99961656055932, 'learn_rate': 0.10766497167417752, 'max_num_splits': 475.5173020164035, 'min_leaf_size': 10.2572422160028}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 3 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 4 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [11/20] 0.031267  (best 0.011100)  {'method': 'LogitBoost', 'n_estimators': 295.4441242293263, 'learn_rate': 0.010438851842921362, 'max_num_splits': 11.686983404908652, 'min_leaf_size': 15.888630625823593}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 3 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 4 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [12/20] 0.011733  (best 0.011100)  {'method': 'LogitBoost', 'n_estimators': 129.14699183283471, 'learn_rate': 0.2593319763139099, 'max_num_splits': 18.300640351051783, 'min_leaf_size': 2.112871342907037}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 3 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 4 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [13/20] 0.020333  (best 0.011100)  {'method': 'LogitBoost', 'n_estimators': 153.50429076904436, 'learn_rate': 0.016379763912457216, 'max_num_splits': 46.7296726817713, 'min_leaf_size': 45.97052905904566}
+  [14/20] 0.032300  (best 0.011100)  {'method': 'Bag', 'n_estimators': 201.59377387319256, 'learn_rate': 0.02323004328485012, 'max_num_splits': 1486.409527483399, 'min_leaf_size': 50.47494408887796}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 3 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [15/20] 0.011800  (best 0.011100)  {'method': 'LogitBoost', 'n_estimators': 145.46171798687593, 'learn_rate': 0.15893211380718986, 'max_num_splits': 20.211939038884864, 'min_leaf_size': 63.88199279728398}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 3 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 4 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [16/20] 0.020000  (best 0.011100)  {'method': 'LogitBoost', 'n_estimators': 109.08731479207987, 'learn_rate': 0.044090802908371335, 'max_num_splits': 343.7338154209228, 'min_leaf_size': 1.1356546175532711}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 3 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 4 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [17/20] 0.020833  (best 0.011100)  {'method': 'LogitBoost', 'n_estimators': 30.021547205405597, 'learn_rate': 0.2711780152774308, 'max_num_splits': 11.300551681017168, 'min_leaf_size': 2.2886025765122513}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 3 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 4 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [18/20] 0.018033  (best 0.011100)  {'method': 'LogitBoost', 'n_estimators': 52.55136803863623, 'learn_rate': 0.5935706431484414, 'max_num_splits': 23.280292222128047, 'min_leaf_size': 24.356293137868622}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 3 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 4 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [19/20] 0.016700  (best 0.011100)  {'method': 'Bag', 'n_estimators': 130.6824362064589, 'learn_rate': 0.010431876787225645, 'max_num_splits': 914.4474267807902, 'min_leaf_size': 4.767590584915797}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 3 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 4 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [20/20] 0.076767  (best 0.011100)  {'method': 'Bag', 'n_estimators': 89.73206844428356, 'learn_rate': 0.20890642169211485, 'max_num_splits': 8.4975084349682, 'min_leaf_size': 44.33311676707017}
+  best inner error = 0.011100  ->  {'method': 'LogitBoost', 'n_estimators': 278.3754852955394, 'learn_rate': 0.044838462907863516, 'max_num_splits': 80.6798979669766, 'min_leaf_size': 7.048590869702129}
+  [AGO] 10-fold CV on All (60 features)
+    fold 1/10: acc=99.378%  (32s)
+    fold 2/10: acc=99.342%  (33s)
+    fold 3/10: acc=99.266%  (41s)
+    fold 4/10: acc=99.375%  (41s)
+    fold 5/10: acc=99.308%  (33s)
+    fold 6/10: acc=99.342%  (39s)
+    fold 7/10: acc=99.351%  (36s)
+    fold 8/10: acc=99.242%  (36s)
+    fold 9/10: acc=99.302%  (36s)
+    fold 10/10: acc=99.375%  (45s)
+     -> acc=99.33%  sen=98.08%  spe=99.52%  MCC=0.9714
+  [AGO] 10-fold CV on Seg1 (20 features)
+    fold 1/10: acc=97.249%  (21s)
+    fold 2/10: acc=97.089%  (26s)
+    fold 3/10: acc=97.149%  (22s)
+    fold 4/10: acc=97.161%  (27s)
+    fold 5/10: acc=97.342%  (28s)
+    fold 6/10: acc=97.131%  (36s)
+    fold 7/10: acc=97.104%  (30s)
+    fold 8/10: acc=97.043%  (23s)
+    fold 9/10: acc=97.019%  (24s)
+    fold 10/10: acc=97.306%  (22s)
+     -> acc=97.16%  sen=87.84%  spe=98.62%  MCC=0.8769
+  [AGO] 10-fold CV on Seg2 (20 features)
+    fold 1/10: acc=98.629%  (26s)
+    fold 2/10: acc=98.653%  (23s)
+    fold 3/10: acc=98.502%  (19s)
+    fold 4/10: acc=98.659%  (17s)
+    fold 5/10: acc=98.590%  (16s)
+    fold 6/10: acc=98.647%  (16s)
+    fold 7/10: acc=98.662%  (20s)
+    fold 8/10: acc=98.602%  (23s)
+    fold 9/10: acc=98.568%  (22s)
+    fold 10/10: acc=98.608%  (25s)
+     -> acc=98.61%  sen=94.75%  spe=99.22%  MCC=0.9406
+  [AGO] 10-fold CV on Seg3 (20 features)
+    fold 1/10: acc=96.995%  (23s)
+    fold 2/10: acc=97.016%  (20s)
+    fold 3/10: acc=97.095%  (22s)
+    fold 4/10: acc=97.122%  (20s)
+    fold 5/10: acc=96.920%  (19s)
+    fold 6/10: acc=97.080%  (27s)
+    fold 7/10: acc=97.101%  (26s)
+    fold 8/10: acc=96.962%  (24s)
+    fold 9/10: acc=96.995%  (24s)
+    fold 10/10: acc=97.170%  (25s)
+     -> acc=97.05%  sen=87.83%  spe=98.49%  MCC=0.8724
+  [AGO] subject-wise CV
+    fold 1/7: acc=63.449%  (43s)
+    fold 2/7: acc=89.508%  (45s)
+    fold 3/7: acc=85.892%  (31s)
+    fold 4/7: acc=96.970%  (29s)
+    fold 5/7: acc=80.631%  (28s)
+    fold 6/7: acc=81.089%  (28s)
+    fold 7/7: acc=93.486%  (28s)
+     -> acc=84.37%
+
+=== EDO : 331124 beats x 60 features ===
+  Bayesian optimisation on 30000 beats, 3-fold inner CV, 20 iterations
+  [init] 0.014300  {'method': 'LogitBoost', 'n_estimators': 82.41375352280242, 'learn_rate': 0.5214297905300547, 'max_num_splits': 620.0807367192691, 'min_leaf_size': 1.4794532279853685}
+  [init] 0.012000  {'method': 'LogitBoost', 'n_estimators': 173.08560750108757, 'learn_rate': 0.37336070725030324, 'max_num_splits': 17.79034636622537, 'min_leaf_size': 6.5084573250286155}
+  [init] 0.018133  {'method': 'Bag', 'n_estimators': 253.4464681419289, 'learn_rate': 0.19396806804067668, 'max_num_splits': 1355.7303262624634, 'min_leaf_size': 6.322456443578101}
+  [init] 0.022367  {'method': 'Bag', 'n_estimators': 107.57368397007792, 'learn_rate': 0.013416354101688918, 'max_num_splits': 1397.5464779086049, 'min_leaf_size': 13.832465253898887}
+  [init] 0.013333  {'method': 'LogitBoost', 'n_estimators': 67.86521399275378, 'learn_rate': 0.8737678255441985, 'max_num_splits': 2102.7914984424297, 'min_leaf_size': 25.462479039112775}
+  [init] 0.047633  {'method': 'Bag', 'n_estimators': 87.87033020935763, 'learn_rate': 0.01223510023365086, 'max_num_splits': 20.946037327453777, 'min_leaf_size': 17.128105944872736}
+  [init] 0.012567  {'method': 'LogitBoost', 'n_estimators': 278.3754852955394, 'learn_rate': 0.044838462907863516, 'max_num_splits': 80.6798979669766, 'min_leaf_size': 7.048590869702129}
+  [init] 0.039267  {'method': 'Bag', 'n_estimators': 40.46157276609095, 'learn_rate': 0.08941489120323662, 'max_num_splits': 32.94948797966535, 'min_leaf_size': 16.210806560530866}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 4 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [ 1/20] 0.019033  (best 0.012000)  {'method': 'LogitBoost', 'n_estimators': 230.12767352230043, 'learn_rate': 0.01264486074078585, 'max_num_splits': 2642.886028998725, 'min_leaf_size': 5.933992685297242}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 4 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [ 2/20] 0.064633  (best 0.012000)  {'method': 'LogitBoost', 'n_estimators': 88.83947389151938, 'learn_rate': 0.014693603374145738, 'max_num_splits': 8.941898223802596, 'min_leaf_size': 20.41485256027778}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 2 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [ 3/20] 0.121900  (best 0.012000)  {'method': 'LogitBoost', 'n_estimators': 44.049466501099396, 'learn_rate': 0.014649037982409439, 'max_num_splits': 9.393751660943913, 'min_leaf_size': 2.5669065539915374}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 2 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [ 4/20] 0.011933  (best 0.011933)  {'method': 'LogitBoost', 'n_estimators': 69.96359329866672, 'learn_rate': 0.4670895305703139, 'max_num_splits': 2431.451447198531, 'min_leaf_size': 33.77548227570801}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 2 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [ 5/20] 0.013367  (best 0.011933)  {'method': 'LogitBoost', 'n_estimators': 141.54744898849205, 'learn_rate': 0.4086520539628592, 'max_num_splits': 3144.7388705843287, 'min_leaf_size': 1.0112486009553128}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 4 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [ 6/20] 0.022433  (best 0.011933)  {'method': 'Bag', 'n_estimators': 179.67805930205975, 'learn_rate': 0.031021961455623876, 'max_num_splits': 889.9676889200973, 'min_leaf_size': 14.423471670788889}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 2 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [ 7/20] 0.038933  (best 0.011933)  {'method': 'Bag', 'n_estimators': 48.16517651270525, 'learn_rate': 0.024674919802421466, 'max_num_splits': 3985.3134464955797, 'min_leaf_size': 63.793353598127034}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 2 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [ 8/20] 0.028933  (best 0.011933)  {'method': 'LogitBoost', 'n_estimators': 119.14731099107647, 'learn_rate': 0.03834606920085739, 'max_num_splits': 8.315085540617558, 'min_leaf_size': 1.015807205510093}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 2 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [ 9/20] 0.014067  (best 0.011933)  {'method': 'LogitBoost', 'n_estimators': 292.6956191582615, 'learn_rate': 0.3608824696918901, 'max_num_splits': 3844.4198419738022, 'min_leaf_size': 1.303859174827119}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 2 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [10/20] 0.019167  (best 0.011933)  {'method': 'LogitBoost', 'n_estimators': 57.7083693656808, 'learn_rate': 0.26322242546317504, 'max_num_splits': 8.335692490230928, 'min_leaf_size': 9.397708810105732}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 2 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [11/20] 0.073333  (best 0.011933)  {'method': 'Bag', 'n_estimators': 125.49663889733026, 'learn_rate': 0.17068856584017666, 'max_num_splits': 8.055022678489408, 'min_leaf_size': 43.94617212145839}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 2 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [12/20] 0.013967  (best 0.011933)  {'method': 'LogitBoost', 'n_estimators': 264.6795086060627, 'learn_rate': 0.23891709240205017, 'max_num_splits': 336.54375188035465, 'min_leaf_size': 1.1408723643176777}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 2 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [13/20] 0.013200  (best 0.011933)  {'method': 'LogitBoost', 'n_estimators': 65.40464436828638, 'learn_rate': 0.3798844150962112, 'max_num_splits': 3773.6290349346455, 'min_leaf_size': 8.801129389216774}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 2 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [14/20] 0.015933  (best 0.011933)  {'method': 'Bag', 'n_estimators': 57.42149661836796, 'learn_rate': 0.02394576309141908, 'max_num_splits': 3865.641597473352, 'min_leaf_size': 1.889017740563931}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 2 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [15/20] 0.017233  (best 0.011933)  {'method': 'Bag', 'n_estimators': 52.990337246197484, 'learn_rate': 0.07394469448572658, 'max_num_splits': 4005.354103708704, 'min_leaf_size': 3.34846642987486}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 2 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [16/20] 0.023633  (best 0.011933)  {'method': 'LogitBoost', 'n_estimators': 46.23539339960206, 'learn_rate': 0.03224035147309999, 'max_num_splits': 198.72995606490065, 'min_leaf_size': 9.795971313537445}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [17/20] 0.018400  (best 0.011933)  {'method': 'LogitBoost', 'n_estimators': 35.26250857573157, 'learn_rate': 0.07781288071236858, 'max_num_splits': 3983.558076747246, 'min_leaf_size': 29.233204908438026}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [18/20] 0.011667  (best 0.011667)  {'method': 'LogitBoost', 'n_estimators': 140.2968389569337, 'learn_rate': 0.34818273520120974, 'max_num_splits': 404.2570361736244, 'min_leaf_size': 30.94120057299208}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [19/20] 0.011667  (best 0.011667)  {'method': 'LogitBoost', 'n_estimators': 240.3666318073207, 'learn_rate': 0.6251463291831925, 'max_num_splits': 496.3197750057718, 'min_leaf_size': 43.199381163601}
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 1 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  [20/20] 0.135133  (best 0.011667)  {'method': 'LogitBoost', 'n_estimators': 35.27620613113193, 'learn_rate': 0.010012041140120316, 'max_num_splits': 3101.6114922175957, 'min_leaf_size': 26.12526454628241}
+  best inner error = 0.011667  ->  {'method': 'LogitBoost', 'n_estimators': 140.2968389569337, 'learn_rate': 0.34818273520120974, 'max_num_splits': 404.2570361736244, 'min_leaf_size': 30.94120057299208}
+  [EDO] 10-fold CV on All (60 features)
+    fold 1/10: acc=99.465%  (30s)
+    fold 2/10: acc=99.493%  (29s)
+    fold 3/10: acc=99.475%  (30s)
+    fold 4/10: acc=99.453%  (30s)
+    fold 5/10: acc=99.502%  (31s)
+    fold 6/10: acc=99.423%  (38s)
+    fold 7/10: acc=99.441%  (34s)
+    fold 8/10: acc=99.411%  (34s)
+    fold 9/10: acc=99.471%  (31s)
+    fold 10/10: acc=99.550%  (30s)
+     -> acc=99.47%  sen=98.56%  spe=99.61%  MCC=0.9774
+  [EDO] 10-fold CV on Seg1 (20 features)
+    fold 1/10: acc=97.943%  (23s)
+    fold 2/10: acc=98.013%  (22s)
+    fold 3/10: acc=98.031%  (21s)
+    fold 4/10: acc=97.222%  (21s)
+    fold 5/10: acc=98.019%  (24s)
+    fold 6/10: acc=97.974%  (25s)
+    fold 7/10: acc=98.016%  (25s)
+    fold 8/10: acc=97.931%  (25s)
+    fold 9/10: acc=97.955%  (26s)
+    fold 10/10: acc=98.088%  (25s)
+     -> acc=97.92%  sen=92.01%  spe=98.84%  MCC=0.9108
+  [EDO] 10-fold CV on Seg2 (20 features)
+    fold 1/10: acc=98.910%  (25s)
+    fold 2/10: acc=98.861%  (22s)
+    fold 3/10: acc=98.822%  (25s)
+    fold 4/10: acc=98.886%  (27s)
+    fold 5/10: acc=95.008%  (25s)
+    fold 6/10: acc=98.861%  (29s)
+    fold 7/10: acc=98.958%  (32s)
+    fold 8/10: acc=98.937%  (29s)
+    fold 9/10: acc=97.237%  (29s)
+    fold 10/10: acc=93.815%  (25s)
+     -> acc=97.83%  sen=92.53%  spe=98.66%  MCC=0.9076
+  [EDO] 10-fold CV on Seg3 (20 features)
+    fold 1/10: acc=97.789%  (26s)
+    fold 2/10: acc=97.723%  (26s)
+    fold 3/10: acc=97.774%  (24s)
+    fold 4/10: acc=97.738%  (21s)
+    fold 5/10: acc=97.813%  (22s)
+    fold 6/10: acc=97.795%  (22s)
+    fold 7/10: acc=97.765%  (20s)
+    fold 8/10: acc=97.669%  (21s)
+    fold 9/10: acc=97.783%  (22s)
+    fold 10/10: acc=97.771%  (21s)
+     -> acc=97.76%  sen=91.96%  spe=98.67%  MCC=0.9045
+  [EDO] subject-wise CV
+    fold 1/7: acc=65.412%  (27s)
+    fold 2/7: acc=93.736%  (26s)
+    fold 3/7: acc=88.323%  (26s)
+    fold 4/7: acc=96.870%  (27s)
+    fold 5/7: acc=83.329%  (28s)
+    fold 6/7: acc=83.995%  (26s)
+    fold 7/7: acc=94.140%  (29s)
+     -> acc=86.52%
+
+Saved -> C:\Users\prakruti\Documents\BTP\results\tables\classification_results.json

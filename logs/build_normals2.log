@@ -1,0 +1,102 @@
+Processing 10 records with n_jobs=10 ...
+[Parallel(n_jobs=10)]: Using backend LokyBackend with 10 concurrent workers.
+Traceback (most recent call last):
+  File "C:\Users\prakruti\Documents\BTP\src\build_dataset.py", line 121, in process_record
+    tmp.replace(shard)
+    ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified: 'C:\\Users\\prakruti\\Documents\\BTP\\data\\processed\\beats\\f2y08.npz.tmp' -> 'C:\\Users\\prakruti\\Documents\\BTP\\data\\processed\\beats\\f2y08.npz'
+Traceback (most recent call last):
+  File "C:\Users\prakruti\Documents\BTP\src\build_dataset.py", line 121, in process_record
+    tmp.replace(shard)
+    ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified: 'C:\\Users\\prakruti\\Documents\\BTP\\data\\processed\\beats\\f2o02.npz.tmp' -> 'C:\\Users\\prakruti\\Documents\\BTP\\data\\processed\\beats\\f2o02.npz'
+Traceback (most recent call last):
+  File "C:\Users\prakruti\Documents\BTP\src\build_dataset.py", line 121, in process_record
+    tmp.replace(shard)
+    ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified: 'C:\\Users\\prakruti\\Documents\\BTP\\data\\processed\\beats\\f2y10.npz.tmp' -> 'C:\\Users\\prakruti\\Documents\\BTP\\data\\processed\\beats\\f2y10.npz'
+[Parallel(n_jobs=10)]: Done   3 out of  10 | elapsed:  9.2min remaining: 21.6min
+Traceback (most recent call last):
+  File "C:\Users\prakruti\Documents\BTP\src\build_dataset.py", line 121, in process_record
+    tmp.replace(shard)
+    ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified: 'C:\\Users\\prakruti\\Documents\\BTP\\data\\processed\\beats\\f2o05.npz.tmp' -> 'C:\\Users\\prakruti\\Documents\\BTP\\data\\processed\\beats\\f2o05.npz'
+Traceback (most recent call last):
+  File "C:\Users\prakruti\Documents\BTP\src\build_dataset.py", line 121, in process_record
+    tmp.replace(shard)
+    ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified: 'C:\\Users\\prakruti\\Documents\\BTP\\data\\processed\\beats\\f2y07.npz.tmp' -> 'C:\\Users\\prakruti\\Documents\\BTP\\data\\processed\\beats\\f2y07.npz'
+[Parallel(n_jobs=10)]: Done   5 out of  10 | elapsed: 12.2min remaining: 12.2min
+Traceback (most recent call last):
+  File "C:\Users\prakruti\Documents\BTP\src\build_dataset.py", line 121, in process_record
+    tmp.replace(shard)
+    ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified: 'C:\\Users\\prakruti\\Documents\\BTP\\data\\processed\\beats\\f2y01.npz.tmp' -> 'C:\\Users\\prakruti\\Documents\\BTP\\data\\processed\\beats\\f2y01.npz'
+Traceback (most recent call last):
+  File "C:\Users\prakruti\Documents\BTP\src\build_dataset.py", line 121, in process_record
+    tmp.replace(shard)
+    ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified: 'C:\\Users\\prakruti\\Documents\\BTP\\data\\processed\\beats\\f2y05.npz.tmp' -> 'C:\\Users\\prakruti\\Documents\\BTP\\data\\processed\\beats\\f2y05.npz'
+[Parallel(n_jobs=10)]: Done   7 out of  10 | elapsed: 13.4min remaining:  5.7min
+Traceback (most recent call last):
+  File "C:\Users\prakruti\Documents\BTP\src\build_dataset.py", line 121, in process_record
+    tmp.replace(shard)
+    ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified: 'C:\\Users\\prakruti\\Documents\\BTP\\data\\processed\\beats\\f2y06.npz.tmp' -> 'C:\\Users\\prakruti\\Documents\\BTP\\data\\processed\\beats\\f2y06.npz'
+Traceback (most recent call last):
+  File "C:\Users\prakruti\Documents\BTP\src\build_dataset.py", line 121, in process_record
+    tmp.replace(shard)
+    ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified: 'C:\\Users\\prakruti\\Documents\\BTP\\data\\processed\\beats\\f2y09.npz.tmp' -> 'C:\\Users\\prakruti\\Documents\\BTP\\data\\processed\\beats\\f2y09.npz'
+Traceback (most recent call last):
+  File "C:\Users\prakruti\Documents\BTP\src\build_dataset.py", line 121, in process_record
+    tmp.replace(shard)
+    ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\prakruti\AppData\Local\Programs\Python\Python314\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified: 'C:\\Users\\prakruti\\Documents\\BTP\\data\\processed\\beats\\f2o10.npz.tmp' -> 'C:\\Users\\prakruti\\Documents\\BTP\\data\\processed\\beats\\f2o10.npz'
+[Parallel(n_jobs=10)]: Done  10 out of  10 | elapsed: 15.2min finished
+
+Done: 0/10 records, 0 beats total
+  FAILED {'record': 'f2o02', 'status': "error: [WinError 2] The system cannot find the file specified: 'C:\\\\Users\\\\prakruti\\\\Documents\\\\BTP\\\\data\\\\processed\\\\beats\\\\f2o02.npz.tmp' -> 'C:\\\\Users\\\\prakruti\\\\Documents\\\\BTP\\\\data\\\\processed\\\\beats\\\\f2o02.npz'", 'n_beats': 0}
+  FAILED {'record': 'f2o05', 'status': "error: [WinError 2] The system cannot find the file specified: 'C:\\\\Users\\\\prakruti\\\\Documents\\\\BTP\\\\data\\\\processed\\\\beats\\\\f2o05.npz.tmp' -> 'C:\\\\Users\\\\prakruti\\\\Documents\\\\BTP\\\\data\\\\processed\\\\beats\\\\f2o05.npz'", 'n_beats': 0}
+  FAILED {'record': 'f2o10', 'status': "error: [WinError 2] The system cannot find the file specified: 'C:\\\\Users\\\\prakruti\\\\Documents\\\\BTP\\\\data\\\\processed\\\\beats\\\\f2o10.npz.tmp' -> 'C:\\\\Users\\\\prakruti\\\\Documents\\\\BTP\\\\data\\\\processed\\\\beats\\\\f2o10.npz'", 'n_beats': 0}
+  FAILED {'record': 'f2y01', 'status': "error: [WinError 2] The system cannot find the file specified: 'C:\\\\Users\\\\prakruti\\\\Documents\\\\BTP\\\\data\\\\processed\\\\beats\\\\f2y01.npz.tmp' -> 'C:\\\\Users\\\\prakruti\\\\Documents\\\\BTP\\\\data\\\\processed\\\\beats\\\\f2y01.npz'", 'n_beats': 0}
+  FAILED {'record': 'f2y05', 'status': "error: [WinError 2] The system cannot find the file specified: 'C:\\\\Users\\\\prakruti\\\\Documents\\\\BTP\\\\data\\\\processed\\\\beats\\\\f2y05.npz.tmp' -> 'C:\\\\Users\\\\prakruti\\\\Documents\\\\BTP\\\\data\\\\processed\\\\beats\\\\f2y05.npz'", 'n_beats': 0}
+  FAILED {'record': 'f2y06', 'status': "error: [WinError 2] The system cannot find the file specified: 'C:\\\\Users\\\\prakruti\\\\Documents\\\\BTP\\\\data\\\\processed\\\\beats\\\\f2y06.npz.tmp' -> 'C:\\\\Users\\\\prakruti\\\\Documents\\\\BTP\\\\data\\\\processed\\\\beats\\\\f2y06.npz'", 'n_beats': 0}
+  FAILED {'record': 'f2y07', 'status': "error: [WinError 2] The system cannot find the file specified: 'C:\\\\Users\\\\prakruti\\\\Documents\\\\BTP\\\\data\\\\processed\\\\beats\\\\f2y07.npz.tmp' -> 'C:\\\\Users\\\\prakruti\\\\Documents\\\\BTP\\\\data\\\\processed\\\\beats\\\\f2y07.npz'", 'n_beats': 0}
+  FAILED {'record': 'f2y08', 'status': "error: [WinError 2] The system cannot find the file specified: 'C:\\\\Users\\\\prakruti\\\\Documents\\\\BTP\\\\data\\\\processed\\\\beats\\\\f2y08.npz.tmp' -> 'C:\\\\Users\\\\prakruti\\\\Documents\\\\BTP\\\\data\\\\processed\\\\beats\\\\f2y08.npz'", 'n_beats': 0}
+  FAILED {'record': 'f2y09', 'status': "error: [WinError 2] The system cannot find the file specified: 'C:\\\\Users\\\\prakruti\\\\Documents\\\\BTP\\\\data\\\\processed\\\\beats\\\\f2y09.npz.tmp' -> 'C:\\\\Users\\\\prakruti\\\\Documents\\\\BTP\\\\data\\\\processed\\\\beats\\\\f2y09.npz'", 'n_beats': 0}
+  FAILED {'record': 'f2y10', 'status': "error: [WinError 2] The system cannot find the file specified: 'C:\\\\Users\\\\prakruti\\\\Documents\\\\BTP\\\\data\\\\processed\\\\beats\\\\f2y10.npz.tmp' -> 'C:\\\\Users\\\\prakruti\\\\Documents\\\\BTP\\\\data\\\\processed\\\\beats\\\\f2y10.npz'", 'n_beats': 0}
+Assembled -> C:\Users\prakruti\Documents\BTP\data\processed\dataset.npz
+  CAD beats   : 44745
+  Normal beats: 277532
+  Features    : 60 per operator
